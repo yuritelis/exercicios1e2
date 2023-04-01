@@ -12,6 +12,4 @@ tab:= num*i
 escreva(tab)
 i:=1+i
 fimenquanto
-
-
 Fimalgoritmo
