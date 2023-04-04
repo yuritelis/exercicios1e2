@@ -17,21 +17,17 @@ inicio
                votojs:=1
                enquanto (votojs>1) faca
                votojs:=votojs+1
-               fimenquanto
             fimse
             se (voto="Maria Juruma") ou (voto="mj") entao
                votomj:=1
                enquanto (votomj>1) faca
                votomj:=votomj+1
-               fimenquanto
             fimse
             se (voto="Joao da Tapioca") ou (voto="jt") entao
                votojt:=1
                enquanto (votojt>1) faca
                votojt:=votojt+1
-               fimenquanto
-            fimse
-            votototal:=votomj+votojs+votojt
+            fimsevotototal:=votomj+votojs+votojt
             porcentjs:=(votojs/votototal)*1/100
             porcentmj:=(votomj/votototal)*1/100
             porcentjt:=(votojt/votototal)*1/100
@@ -48,5 +44,8 @@ inicio
                     fimse
                  fimse
             fimse
+   fimenquanto
+   fimenquanto
+   fimenquanto
    fimenquanto
 fimalgoritmo
